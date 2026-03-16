@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Chat</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- CONTACTS PANEL -->
+    <div class="chat-container">
+
+        <div class="header">
+            Contacts
+        </div>
+
+        <div class="contacts">
+
+            <div class="contact">
+                <div class="dp">B</div>
+
+                <div class="contact-info">
+                    <div class="contact-name">Broadcast</div>
+                    <div class="description">Send message to everyone</div>
+                </div>
+            </div>
+
+            <div id="contactList"></div>
+
+        </div>
+    </div>
+
+
+    <!-- CHAT PANEL -->
+    <div class="chat-panel">
+
+    <div class="chat-header" id="chatHeader"></div>
+
+    <div class="messages" id="messages"></div>
+
+    <div class="message-input" id="messageInput">
+        <input type="text" id="messageBox" placeholder="Type a message">
+        <button id="sendBtn">Send</button>
+    </div>
+
+</div>
+
+</div>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
